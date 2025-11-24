@@ -51,7 +51,7 @@ O uso de credenciais próprias evita que você compartilhe limites de tráfego d
 3. **Nome:** `Rclone Client`.
 4. Ao criar, copie e salve o **ID de cliente** e a **Chave secreta**.
 
-[Índice](#índice)
+[⬆](#índice)
 ------
 
 ## 2. Instalação do Rclone
@@ -64,7 +64,7 @@ Bash
 sudo -v ; curl https://rclone.org/install.sh | sudo bash
 ```
 
-[Índice](#índice)
+[⬆](#índice)
 ------
 
 ## 3. Configuração e Conexão
@@ -103,7 +103,7 @@ rclone config
 10. **Shared Drive?** Digite `n` (exceto se for usar Drives de Equipe).
 11. **Confirmar:** Digite `y` e depois `q` para sair.
 
-[Índice](#índice)
+[⬆](#índice)
 ------
 
 ## 4. Configuração do Serviço Automático (Systemd)
@@ -166,7 +166,7 @@ systemctl --user enable rclone-gdrive-[NOME_DO_REMOTE].service
 systemctl --user start rclone-gdrive-[NOME_DO_REMOTE].service
 ```
 
-[Índice](#índice)
+[⬆](#índice)
 ------
 
 ## 5. Comandos de Gerenciamento
@@ -208,3 +208,5 @@ rclone config reconnect [NOME_DO_REMOTE]:
 ```
 
 E depois reinicie o serviço.
+
+[⬆](#índice)
